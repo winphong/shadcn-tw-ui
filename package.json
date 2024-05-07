@@ -1,7 +1,7 @@
 {
-  "name": "@shadcn-tw/ui",
-  "private": true,
-  "version": "0.0.0",
+  "name": "shadcn-tw-ui",
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "main": "./dist/main.es.js",
   "exports": {
@@ -15,6 +15,11 @@
       "require": "./dist/*.css"
     }
   },
+  "files": [
+    "dist",
+    "package.json",
+    "LICENSE"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc-alias",
@@ -44,13 +49,13 @@
     "@typescript-eslint/parser": "^7.2.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.19",
-    "eslint": "^8.57.0",
+    "eslint": "^9.2.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "tsc-alias": "^1.8.8",
-    "typescript": "^5.2.2",
+    "typescript": "^5.4.5",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.1"
   }
