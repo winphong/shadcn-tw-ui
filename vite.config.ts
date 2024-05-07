@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [react(), dts({ insertTypesEntry: true })],
   build: {
     lib: {
-      name: "@shad-tw/ui", // Name of your library
+      name: "shadcn-tw-ui", // Name of your library
       entry: ["src/index.tsx"], // Entry point for your library (optional)
       fileName: (format) => `main.${format}.js`, // Output filename format
     },
