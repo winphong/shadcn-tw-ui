@@ -20,7 +20,10 @@
     "noFallthroughCasesInSwitch": true,
 
     /* Custom */
-    "outDir": "dist"
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
   },
   "include": ["src"],
   "exclude": ["node_modules"],
